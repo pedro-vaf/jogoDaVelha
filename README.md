@@ -4,7 +4,7 @@ Este é um projeto clássico de **Jogo da Velha**, feito em HTML, CSS e JavaScri
 
 ---
 
-## 🎮 Funcionalidades
+##  Funcionalidades
 
 - Modo 2 jogadores locais ou jogador vs CPU (IA).
 - Checagem automática de vitória, empate (velha) e reinício do jogo.
@@ -14,14 +14,8 @@ Este é um projeto clássico de **Jogo da Velha**, feito em HTML, CSS e JavaScri
 
 ---
 
-## 🧠 Regras do Jogo
+##  Regras do Jogo
 
 - Dois jogadores se revezam para jogar com os símbolos `X` e `O`.
 - Ganha quem conseguir alinhar 3 símbolos iguais na horizontal, vertical ou diagonal.
 - Caso todas as 9 casas sejam preenchidas sem vencedor, o jogo declara "Deu Velha!".
-    └── style.css <br>
-├── JavaScript
-    └── script.js <br>
-├── img
-    └── jogoDaVelhaIcon.png <br>
-└── index.html
