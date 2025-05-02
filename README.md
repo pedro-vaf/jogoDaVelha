@@ -19,13 +19,6 @@ Este é um projeto clássico de **Jogo da Velha**, feito em HTML, CSS e JavaScri
 - Dois jogadores se revezam para jogar com os símbolos `X` e `O`.
 - Ganha quem conseguir alinhar 3 símbolos iguais na horizontal, vertical ou diagonal.
 - Caso todas as 9 casas sejam preenchidas sem vencedor, o jogo declara "Deu Velha!".
-
----
-
-## 🛠️ Estrutura do Projeto
-├── .vscode
-    └── settings.json <br> 
-├── CSS
     └── style.css <br>
 ├── JavaScript
     └── script.js <br>
