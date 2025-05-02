@@ -1,4 +1,4 @@
-# Jogo da Velha (Tic Tac Toe) em JavaScript
+# Jogo da Velha em JavaScript
 
 Este é um projeto clássico de **Jogo da Velha**, feito em HTML, CSS e JavaScript puro. Nele, o jogador pode enfrentar outro jogador localmente ou jogar contra uma IA simples que responde automaticamente.
 
@@ -24,11 +24,11 @@ Este é um projeto clássico de **Jogo da Velha**, feito em HTML, CSS e JavaScri
 
 ## 🛠️ Estrutura do Projeto
 ├── .vscode
-    └── settings.json
+    └── settings.json <br> 
 ├── CSS
-    └── style.css
+    └── style.css <br>
 ├── JavaScript
-    └── script.js
+    └── script.js <br>
 ├── img
-    └── jogoDaVelhaIcon.png
+    └── jogoDaVelhaIcon.png <br>
 └── index.html
