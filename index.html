@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="imagex/png" href="img/jogoDaVelhaIcon.png">
+    <script src="JavaScript/script.js" defer></script>
+</head>
+<body>
+    <h1>Jogo da Velha</h1>
+
+    <div id="buttons-container">
+        <button id="2-players">2 jogadores</button>
+        <button id="ai-player">Contra IA</button>
+    </div>
+
+    <div id = "container" class="hide">
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>
+        
+        <div id="box-dad">
+            <h4>Placar</h4>
+            <span class="score-box">
+                <span id="x-scoreboard" class="score-symbol">X</span>
+                <span id="scoreboard-1" class="score-symbol">0</span>
+              </span>
+              <span class="score-box">
+                <span id="o-scoreboard" class="score-symbol">O</span>
+                <span id="scoreboard-2" class="score-symbol">0</span>
+            </span>
+        </div>
+    </div>
+
+    <div class="hide">
+        <div class="x">X</div>
+        <div class="o"></div>
+    </div>
+
+    <div id="message" class="hide">
+        <p></p>
+    </div>
+    <script src="JavaScript/script.js"></script>
+
+    <footer id="rodape"><a href="https://www.linkedin.com/in/pedrovaf/" target="_blank" rel="linkedin">Pedro Aquino - Desenvolvedor Back-End</a></footer>
+</body>
+</html>
